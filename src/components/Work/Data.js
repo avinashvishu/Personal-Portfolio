@@ -58,20 +58,6 @@ export const projectsData = [
     link: "https://team-chat-app2-1000.onrender.com",
     category: "Next.js",
   },
-  {
-    id: 8,
-    image: Work8,
-    title: "Nastasia.com",
-    link: "https://nestasia.in",
-    category: "Production",
-  },
-  {
-    id: 9,
-    image: Work9,
-    title: "Iksaa.com",
-    link: "https://iksaa.in",
-    category: "Production",
-  },
 ];
 export const projectNav = [
   {
@@ -88,8 +74,5 @@ export const projectNav = [
   },
   {
     name: "Next.js",
-  },
-  {
-    name: "Production",
   },
 ];
