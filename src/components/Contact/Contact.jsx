@@ -14,16 +14,15 @@ const Contact = () => {
   const submitForm = async (e)=> {
      e.preventDefault()
     
-     const serviceId = "service_ut1rb1z"
-     const templateId ="template_2rwi3ya"
-     const publicKey ="jJiH2kQkQBl4EXq-2"
+     const serviceId = "service_lgysjhq"
+     const templateId ="template_wuyt78x"
+     const publicKey ="jGEuUdEFAbXaYCbHM"
 
      const templateParams = {
       from_name: name,
       email : mail,
       to_name: "Avinash",
       message: project
-
      }
      try {
       setShowLoader(true)

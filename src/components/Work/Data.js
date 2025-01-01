@@ -4,16 +4,23 @@ import Work3 from "../../Assets/projects/pic1.png";
 import Work2 from "../../Assets/projects/React1.png";
 import Work5 from "../../Assets/projects/pic3.png";
 import Work6 from "../../Assets/projects/real-estate.png";
-import Work7 from "../../Assets/projects/team-chat-app.jpeg";
-import Work8 from "../../Assets/projects/nastasia.jpeg";
-import Work9 from "../../Assets/projects/iksaa.jpeg";
+import Work7 from "../../Assets/projects/avidis.png";
+import Work8 from "../../Assets/projects/Promanage.png";
+import Work9 from "../../Assets/projects/prod.gif";
 
 export const projectsData = [
   {
-    id: 1,
-    image: Work1,
-    title: "Mern online chat application",
-    link: "https://zodex-chat-app.onrender.com",
+    id: 9,
+    image: Work9,
+    title: "Mployee.me",
+    link: "https://www.mployee.me/resume-scan-dashboard",
+    category: "On Production",
+  },
+  {
+    id: 8,
+    image: Work8,
+    title: "Advance ToDo List",
+    link: "https://pro-manage-client-seven.vercel.app",
     category: "Mern",
   },
   {
@@ -74,5 +81,8 @@ export const projectNav = [
   },
   {
     name: "Next.js",
+  },
+  {
+    name: "On Production",
   },
 ];
